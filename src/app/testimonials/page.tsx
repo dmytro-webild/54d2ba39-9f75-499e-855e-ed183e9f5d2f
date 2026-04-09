@@ -28,11 +28,8 @@ export default function TestimonialsPage() {
             { name: "Services", id: "/services" },
             { name: "How It Works", id: "/how-it-works" },
             { name: "FAQ", id: "/faq" },
-            { name: "Testimonials", id: "/testimonials" },
-            { name: "Contact", id: "/contact" },
           ]}
           brandName="South Bay Mini Splits"
-          button={{ text: "Get A Quote", href: "/contact" }}
         />
         
         <div id="testimonials" data-section="testimonials" className="py-24">
