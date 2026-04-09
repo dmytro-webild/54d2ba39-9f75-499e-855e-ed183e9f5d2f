@@ -44,7 +44,7 @@ export default function LandingPage() {
       <HeroSplit
       background={{ variant: "gradient-bars" }}
       title="Expert HVAC Services in Los Angeles"
-      description="South Bay Mini Splits brings 5 years of experience to your home. Expert installations, emergency repairs, and maintenance plans. Serving the entire Los Angeles region."
+      description="South Bay Mini Splits brings 5 years of experience to your home. Contact us at Southbayminisplits310@gmail.com. Expert installations, emergency repairs, and maintenance plans. Serving the entire Los Angeles region."
       tag="Trusted HVAC Experts"
       tagIcon={ShieldCheck}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775762199523-nj0x1bl5.png"
@@ -58,7 +58,7 @@ export default function LandingPage() {
       <MediaAbout
       useInvertedBackground={false}
       title="A Half-Decade of Comfort"
-      description="For over 5 years, we've dedicated ourselves to keeping Los Angeles comfortable. Whether you need a new AC install, emergency heater repair, or a routine maintenance plan, our certified technicians are here to help."
+      description="For over 5 years, we've dedicated ourselves to keeping Los Angeles comfortable. Whether you need a new AC install, emergency heater repair, or a routine maintenance plan, our certified technicians are here to help. Email us at Southbayminisplits310@gmail.com for inquiries."
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159686-9br4it8a.png?_wi=2"
       imageAlt="HVAC equipment in a home setting"
     />
@@ -81,7 +81,7 @@ export default function LandingPage() {
           title: "Heating Installations",          description: "Expert heating system installations for year-round comfort.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/tmp/show-a-technician-installing-a-hvac-heat-1775765644501-22d65c8c.png",          imageAlt: "Heating Installation"}
       ]}
       title="Our Professional HVAC Services"
-      description="We specialize in modern cooling and heating solutions for residential and commercial spaces."
+      description="We specialize in modern cooling and heating solutions for residential and commercial spaces. Reach out at Southbayminisplits310@gmail.com."
     />
   </div>
 
@@ -115,10 +115,9 @@ export default function LandingPage() {
       columns={[
         {
           title: "Contact",          items: [
-            {
-              label: "310-707-3279",              href: "tel:3107073279"},
-            {
-              label: "424-489-3555",              href: "tel:4244893555"},
+            { label: "310-707-3279", href: "tel:3107073279" },
+            { label: "424-489-3555", href: "tel:4244893555" },
+            { label: "Southbayminisplits310@gmail.com", href: "mailto:Southbayminisplits310@gmail.com" },
           ],
         },
         {

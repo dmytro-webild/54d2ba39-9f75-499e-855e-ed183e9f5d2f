@@ -40,7 +40,7 @@ export default function FaqPage() {
                     { id: "1", title: "What is the lifespan of a mini-split system?", content: "With proper maintenance, mini-split systems can last between 15 to 20 years." },
                     { id: "2", title: "How often should I clean my filters?", content: "It is recommended to clean your filters every 4 to 6 weeks, depending on usage and air quality." },
                     { id: "3", title: "Are these systems energy-efficient?", content: "Yes, mini-split systems are highly energy-efficient and can significantly reduce your utility bills compared to traditional HVAC units." },
-                    { id: "4", title: "Do you offer financing?", content: "Please contact us to discuss our available financing options for new installations." }
+                    { id: "4", title: "Do you offer financing?", content: "Please email us at Southbayminisplits310@gmail.com to discuss our available financing options for new installations." }
                 ]}
                 sideTitle="Frequently Asked Questions"
                 sideDescription="Everything you need to know about your HVAC system."
@@ -54,7 +54,8 @@ export default function FaqPage() {
             columns={[
                 { title: "Contact", items: [
                     { label: "310-707-3279", href: "tel:3107073279" },
-                    { label: "424-489-3555", href: "tel:4244893555" }
+                    { label: "424-489-3555", href: "tel:4244893555" },
+                    { label: "Southbayminisplits310@gmail.com", href: "mailto:Southbayminisplits310@gmail.com" }
                 ]},
                 { title: "Region", items: [
                     { label: "South Bay, LA", href: "#" },

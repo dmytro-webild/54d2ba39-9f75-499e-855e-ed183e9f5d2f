@@ -47,7 +47,7 @@ export default function TestimonialsPage() {
                 { id: "4", name: "Elena P.", role: "Homeowner", company: "Torrance", rating: 5 },
               ]}
               title="Our Customer Stories"
-              description="Read about the experiences of our valued clients in the Los Angeles area."
+              description="Read about the experiences of our valued clients in the Los Angeles area. Reach out at Southbayminisplits310@gmail.com."
             />
         </div>
 
@@ -56,7 +56,8 @@ export default function TestimonialsPage() {
             columns={[
                 { title: "Contact", items: [
                     { label: "310-707-3279", href: "tel:3107073279" },
-                    { label: "424-489-3555", href: "tel:4244893555" }
+                    { label: "424-489-3555", href: "tel:4244893555" },
+                    { label: "Southbayminisplits310@gmail.com", href: "mailto:Southbayminisplits310@gmail.com" }
                 ]},
                 { title: "Region", items: [
                     { label: "South Bay, LA", href: "#" },
