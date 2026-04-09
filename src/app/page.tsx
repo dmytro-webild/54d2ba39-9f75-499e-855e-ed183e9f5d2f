@@ -30,16 +30,12 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingInline
       navItems={[
-        {
-          name: "Home",          id: "hero"},
-        {
-          name: "About",          id: "about"},
-        {
-          name: "Services",          id: "services"},
-        {
-          name: "FAQ",          id: "/faq"},
-        {
-          name: "Contact",          id: "contact"},
+        { name: "Home", id: "hero" },
+        { name: "About", id: "about" },
+        { name: "Services", id: "services" },
+        { name: "How It Works", id: "/how-it-works" },
+        { name: "FAQ", id: "/faq" },
+        { name: "Contact", id: "contact" },
       ]}
       brandName="South Bay Mini Splits"
       button={{
