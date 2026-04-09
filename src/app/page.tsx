@@ -91,9 +91,11 @@ export default function LandingPage() {
         {
           title: "Mini Split Installation",          description: "High-efficiency cooling solutions for your home or office.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159686-9br4it8a.png?_wi=3",          imageAlt: "AC Unit"},
         {
-          title: "Emergency Repairs",          description: "24/7 support for critical heating and cooling failures.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763554730-i9dspw6o.png",          imageAlt: "Heater Repair"},
+          title: "System Inspections",          description: "Comprehensive checks to ensure peak system performance and longevity.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763554730-i9dspw6o.png",          imageAlt: "System Inspection"},
         {
-          title: "Duct Cleaning & Maintenance",          description: "System inspections and routine care for clean air.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763554731-xh8a7pxz.png",          imageAlt: "Duct Cleaning"},
+          title: "Duct Cleaning",          description: "Professional duct cleaning for better air quality and efficiency.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763554731-xh8a7pxz.png",          imageAlt: "Duct Cleaning"},
+        {
+          title: "Heating Installations",          description: "Expert heating system installations for year-round comfort.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763554730-i9dspw6o.png",          imageAlt: "Heating Installation"}
       ]}
       title="Our Professional HVAC Services"
       description="We specialize in modern cooling and heating solutions for residential and commercial spaces."
