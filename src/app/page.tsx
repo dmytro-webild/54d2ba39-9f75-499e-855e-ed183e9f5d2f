@@ -9,7 +9,6 @@ import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import MediaAbout from '@/components/sections/about/MediaAbout';
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import { ShieldCheck } from "lucide-react";
 
 export default function LandingPage() {
@@ -35,7 +34,6 @@ export default function LandingPage() {
         { name: "Services", id: "services" },
         { name: "How It Works", id: "/how-it-works" },
         { name: "FAQ", id: "/faq" },
-        { name: "Testimonials", id: "/testimonials" },
         { name: "Contact", id: "contact" },
       ]}
       brandName="South Bay Mini Splits"
@@ -120,34 +118,6 @@ export default function LandingPage() {
       ]}
       title="Our Trusted Reputation"
       description="Proven experience you can trust with 400+ residential and 100+ businesses served."
-    />
-  </div>
-
-  <div id="testimonials" data-section="testimonials">
-      <TestimonialCardOne
-      animationType="slide-up"
-      textboxLayout="default"
-      gridVariant="asymmetric-60-wide-40-narrow"
-      useInvertedBackground={true}
-      testimonials={[
-        {
-          id: "1",          name: "Alex R.",          role: "Homeowner",          company: "South Bay",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159686-9br4it8a.png?_wi=5"},
-        {
-          id: "2",          name: "Sarah T.",          role: "Business Owner",          company: "LA Local",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159687-ogu8itrl.png?_wi=3"},
-        {
-          id: "3",          name: "Marcus W.",          role: "Homeowner",          company: "Long Beach",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159686-9br4it8a.png?_wi=6"},
-        {
-          id: "4",          name: "Elena P.",          role: "Homeowner",          company: "Torrance",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159687-ogu8itrl.png?_wi=4"},
-        {
-          id: "5",          name: "David L.",          role: "Homeowner",          company: "Manhattan Beach",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159686-9br4it8a.png?_wi=7"},
-      ]}
-      title="Client Satisfaction"
-      description="Hear what our Los Angeles community has to say."
     />
   </div>
 
