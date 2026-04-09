@@ -25,14 +25,15 @@ export default function HowItWorksPage() {
           <NavbarLayoutFloatingInline
             navItems={[
               { name: "Home", id: "/" },
-              { name: "About", id: "/#about" },
-              { name: "Services", id: "/#services" },
+              { name: "About", id: "/about" },
+              { name: "Services", id: "/services" },
               { name: "How It Works", id: "/how-it-works" },
-              { name: "FAQ", id: "/#faq" },
-              { name: "Contact", id: "/#contact" },
+              { name: "FAQ", id: "/faq" },
+              { name: "Testimonials", id: "/testimonials" },
+              { name: "Contact", id: "/contact" },
             ]}
             brandName="South Bay Mini Splits"
-            button={{ text: "Get A Quote", href: "/#contact" }}
+            button={{ text: "Get A Quote", href: "/contact" }}
           />
         </div>
 

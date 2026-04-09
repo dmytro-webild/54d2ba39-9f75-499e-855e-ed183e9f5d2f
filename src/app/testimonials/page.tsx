@@ -3,10 +3,10 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import FaqSplitText from '@/components/sections/faq/FaqSplitText';
+import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 
-export default function FaqPage() {
+export default function TestimonialsPage() {
   return (
     <ThemeProvider
         defaultButtonVariant="text-stagger"
@@ -35,18 +35,20 @@ export default function FaqPage() {
           button={{ text: "Get A Quote", href: "/contact" }}
         />
         
-        <div id="faq" data-section="faq" className="py-24">
-            <FaqSplitText 
-                faqs={[
-                    { id: "1", title: "What is the lifespan of a mini-split system?", content: "With proper maintenance, mini-split systems can last between 15 to 20 years." },
-                    { id: "2", title: "How often should I clean my filters?", content: "It is recommended to clean your filters every 4 to 6 weeks, depending on usage and air quality." },
-                    { id: "3", title: "Are these systems energy-efficient?", content: "Yes, mini-split systems are highly energy-efficient and can significantly reduce your utility bills compared to traditional HVAC units." },
-                    { id: "4", title: "Do you offer financing?", content: "Please contact us to discuss our available financing options for new installations." }
-                ]}
-                sideTitle="Frequently Asked Questions"
-                sideDescription="Everything you need to know about your HVAC system."
-                faqsAnimation="slide-up"
-                useInvertedBackground={true}
+        <div id="testimonials" data-section="testimonials" className="py-24">
+            <TestimonialCardOne
+              animationType="slide-up"
+              textboxLayout="default"
+              gridVariant="asymmetric-60-wide-40-narrow"
+              useInvertedBackground={true}
+              testimonials={[
+                { id: "1", name: "Alex R.", role: "Homeowner", company: "South Bay", rating: 5 },
+                { id: "2", name: "Sarah T.", role: "Business Owner", company: "LA Local", rating: 5 },
+                { id: "3", name: "Marcus W.", role: "Homeowner", company: "Long Beach", rating: 5 },
+                { id: "4", name: "Elena P.", role: "Homeowner", company: "Torrance", rating: 5 },
+              ]}
+              title="Our Customer Stories"
+              description="Read about the experiences of our valued clients in the Los Angeles area."
             />
         </div>
 

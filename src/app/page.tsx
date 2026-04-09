@@ -35,6 +35,7 @@ export default function LandingPage() {
         { name: "Services", id: "services" },
         { name: "How It Works", id: "/how-it-works" },
         { name: "FAQ", id: "/faq" },
+        { name: "Testimonials", id: "/testimonials" },
         { name: "Contact", id: "contact" },
       ]}
       brandName="South Bay Mini Splits"
