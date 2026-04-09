@@ -45,10 +45,10 @@ export default function HowItWorksPage() {
             gridVariant="uniform-all-items-equal"
             useInvertedBackground={false}
             features={[
-              { title: "1. Schedule a call", description: "Contact us to discuss your needs and set a time for a consultation." },
-              { title: "2. On-site diagnosis", description: "Our experts assess your system and provide a clear plan of action." },
-              { title: "3. Expert repair or install", description: "High-quality workmanship using top-tier components and tools." },
-              { title: "4. Quality Guaranteed", description: "We stand by our work with full satisfaction on every project." }
+              { title: "1. Schedule a call", description: "Contact us to discuss your needs and set a time for a consultation.", videoSrc: "https://example.com/video1.mp4" },
+              { title: "2. On-site diagnosis", description: "Our experts assess your system and provide a clear plan of action.", videoSrc: "https://example.com/video2.mp4" },
+              { title: "3. Expert repair or install", description: "High-quality workmanship using top-tier components and tools.", videoSrc: "https://example.com/video3.mp4" },
+              { title: "4. Quality Guaranteed", description: "We stand by our work with full satisfaction on every project.", videoSrc: "https://example.com/video4.mp4" }
             ]}
           />
         </div>
