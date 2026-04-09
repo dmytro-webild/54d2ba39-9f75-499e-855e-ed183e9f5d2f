@@ -29,9 +29,10 @@ export default function HowItWorksPage() {
               { name: "Services", id: "/services" },
               { name: "How It Works", id: "/how-it-works" },
               { name: "FAQ", id: "/faq" },
+              { name: "Contact", id: "/contact" },
             ]}
             brandName="South Bay Mini Splits"
-            button={{ text: "Get Quote", href: "#" }}
+            button={{ text: "Get Quote", href: "/contact" }}
           />
         </div>
 
