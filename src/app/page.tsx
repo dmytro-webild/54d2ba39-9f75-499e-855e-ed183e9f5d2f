@@ -119,8 +119,8 @@ export default function LandingPage() {
             "Total home comfort",            "Custom solutions",            "Happy neighbors"],
         },
       ]}
-      title="By The Numbers"
-      description="Proven experience you can trust."
+      title="Our Trusted Reputation"
+      description="Proven experience you can trust with 500+ homes and businesses served."
     />
   </div>
 
