@@ -58,9 +58,9 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775762199523-nj0x1bl5.png",          imageAlt: "HVAC installation service"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159686-9br4it8a.png",          imageAlt: "South Bay Mini Splits Professional Setup"},
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775762199523-g9jih1ma.jpg",          imageAlt: "South Bay Mini Splits Logo"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159687-ogu8itrl.png",          imageAlt: "HVAC Installation and Service"},
       ]}
       mediaAnimation="slide-up"
       rating={5}
@@ -74,7 +74,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="A Half-Decade of Comfort"
       description="For over 5 years, we've dedicated ourselves to keeping Los Angeles comfortable. Whether you need a new AC install, emergency heater repair, or a routine maintenance plan, our certified technicians are here to help."
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/modern-high-efficiency-ac-mini-split-wal-1775762229290-2b1c4510.png?_wi=1"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159686-9br4it8a.png"
       imageAlt="HVAC equipment in a home setting"
     />
   </div>
@@ -87,11 +87,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          title: "Mini Split Installation",          description: "High-efficiency cooling solutions for your home or office.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/modern-high-efficiency-ac-mini-split-wal-1775762229290-2b1c4510.png?_wi=2",          imageAlt: "AC Unit"},
+          title: "Mini Split Installation",          description: "High-efficiency cooling solutions for your home or office.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159686-9br4it8a.png",          imageAlt: "AC Unit"},
         {
-          title: "Emergency Repairs",          description: "24/7 support for critical heating and cooling failures.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/professional-hvac-technician-inspecting--1775762228480-c32f1e93.png",          imageAlt: "Heater Repair"},
+          title: "Emergency Repairs",          description: "24/7 support for critical heating and cooling failures.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159687-ogu8itrl.png",          imageAlt: "Heater Repair"},
         {
-          title: "Duct Cleaning & Maintenance",          description: "System inspections and routine care for clean air.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/duct-cleaning-professional-using-tools-o-1775762231343-8fb96f4a.png",          imageAlt: "Duct Cleaning"},
+          title: "Duct Cleaning & Maintenance",          description: "System inspections and routine care for clean air.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159686-9br4it8a.png",          imageAlt: "Duct Cleaning"},
       ]}
       title="Our Professional HVAC Services"
       description="We specialize in modern cooling and heating solutions for residential and commercial spaces."
@@ -131,19 +131,19 @@ export default function LandingPage() {
       testimonials={[
         {
           id: "1",          name: "Alex R.",          role: "Homeowner",          company: "South Bay",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/portrait-of-a-happy-residential-client-1775762228024-2f2795f2.png"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159686-9br4it8a.png"},
         {
           id: "2",          name: "Sarah T.",          role: "Business Owner",          company: "LA Local",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/portrait-of-a-happy-business-owner-clien-1775762227879-94ca65d8.png"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159687-ogu8itrl.png"},
         {
           id: "3",          name: "Marcus W.",          role: "Homeowner",          company: "Long Beach",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/portrait-of-a-happy-family-client-1775762231144-ff24dc00.png"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159686-9br4it8a.png"},
         {
           id: "4",          name: "Elena P.",          role: "Homeowner",          company: "Torrance",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/portrait-of-an-elderly-happy-client-1775762228333-2ad7dc82.png"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159687-ogu8itrl.png"},
         {
           id: "5",          name: "David L.",          role: "Homeowner",          company: "Manhattan Beach",          rating: 5,
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/portrait-of-a-happy-adult-client-1775762229813-66142639.png"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159686-9br4it8a.png"},
       ]}
       title="Client Satisfaction"
       description="Hear what our Los Angeles community has to say."
