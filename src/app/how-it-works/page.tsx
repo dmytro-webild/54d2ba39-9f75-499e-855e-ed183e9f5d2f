@@ -32,7 +32,7 @@ export default function HowItWorksPage() {
               { name: "Contact", id: "/#contact" },
             ]}
             brandName="South Bay Mini Splits"
-            button={{ text: "Get Free Quote", href: "/#contact" }}
+            button={{ text: "Get A Quote", href: "/#contact" }}
           />
         </div>
 
