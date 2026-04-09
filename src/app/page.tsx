@@ -83,15 +83,15 @@ export default function LandingPage() {
           imageAlt: "South Bay Mini Splits Logo",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/modern-high-efficiency-ac-mini-split-wal-1775762229290-2b1c4510.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/modern-high-efficiency-ac-mini-split-wal-1775762229290-2b1c4510.png?_wi=1",
           imageAlt: "Modern Mini Split Unit",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/professional-hvac-technician-inspecting--1775762228480-c32f1e93.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/professional-hvac-technician-inspecting--1775762228480-c32f1e93.png?_wi=1",
           imageAlt: "Professional Technician",
         },
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/duct-cleaning-professional-using-tools-o-1775762231343-8fb96f4a.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/duct-cleaning-professional-using-tools-o-1775762231343-8fb96f4a.png?_wi=1",
           imageAlt: "Duct Maintenance",
         },
       ]}
@@ -107,7 +107,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="A Half-Decade of Comfort"
       description="For over 5 years, we've dedicated ourselves to keeping Los Angeles comfortable. Whether you need a new AC install, emergency heater repair, or a routine maintenance plan, our certified technicians are here to help."
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/modern-high-efficiency-ac-mini-split-wal-1775762229290-2b1c4510.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/modern-high-efficiency-ac-mini-split-wal-1775762229290-2b1c4510.png?_wi=2"
       imageAlt="HVAC equipment in a home setting"
     />
   </div>
@@ -122,19 +122,19 @@ export default function LandingPage() {
         {
           title: "Mini Split Installation",
           description: "High-efficiency cooling solutions for your home or office.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/modern-high-efficiency-ac-mini-split-wal-1775762229290-2b1c4510.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/modern-high-efficiency-ac-mini-split-wal-1775762229290-2b1c4510.png?_wi=3",
           imageAlt: "AC Unit",
         },
         {
           title: "Emergency Repairs",
           description: "24/7 support for critical heating and cooling failures.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/professional-hvac-technician-inspecting--1775762228480-c32f1e93.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/professional-hvac-technician-inspecting--1775762228480-c32f1e93.png?_wi=2",
           imageAlt: "Heater Repair",
         },
         {
           title: "Duct Cleaning & Maintenance",
           description: "System inspections and routine care for clean air.",
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/duct-cleaning-professional-using-tools-o-1775762231343-8fb96f4a.png",
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/duct-cleaning-professional-using-tools-o-1775762231343-8fb96f4a.png?_wi=2",
           imageAlt: "Duct Cleaning",
         },
       ]}
