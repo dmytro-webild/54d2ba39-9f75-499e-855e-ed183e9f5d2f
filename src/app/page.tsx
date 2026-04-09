@@ -89,9 +89,9 @@ export default function LandingPage() {
         {
           title: "Mini Split Installation",          description: "High-efficiency cooling solutions for your home or office.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159686-9br4it8a.png?_wi=3",          imageAlt: "AC Unit"},
         {
-          title: "Emergency Repairs",          description: "24/7 support for critical heating and cooling failures.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159687-ogu8itrl.png?_wi=2",          imageAlt: "Heater Repair"},
+          title: "Emergency Repairs",          description: "24/7 support for critical heating and cooling failures.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763554730-i9dspw6o.png",          imageAlt: "Heater Repair"},
         {
-          title: "Duct Cleaning & Maintenance",          description: "System inspections and routine care for clean air.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159686-9br4it8a.png?_wi=4",          imageAlt: "Duct Cleaning"},
+          title: "Duct Cleaning & Maintenance",          description: "System inspections and routine care for clean air.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763554731-xh8a7pxz.png",          imageAlt: "Duct Cleaning"},
       ]}
       title="Our Professional HVAC Services"
       description="We specialize in modern cooling and heating solutions for residential and commercial spaces."
