@@ -44,7 +44,7 @@ export default function LandingPage() {
       <HeroSplit
       background={{ variant: "gradient-bars" }}
       title="Expert HVAC Services in Los Angeles"
-      description="South Bay Mini Splits brings 5 years of experience to your home. Contact us at Southbayminisplits310@gmail.com. Expert installations, emergency repairs, and maintenance plans. Serving the entire Los Angeles region."
+      description="South Bay Mini Splits brings 5 years of experience to your home. Expert installations, emergency repairs, and maintenance plans. Serving the entire Los Angeles region."
       tag="Trusted HVAC Experts"
       tagIcon={ShieldCheck}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775762199523-nj0x1bl5.png"
@@ -81,7 +81,7 @@ export default function LandingPage() {
           title: "Heating Installations",          description: "Expert heating system installations for year-round comfort.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/tmp/show-a-technician-installing-a-hvac-heat-1775765644501-22d65c8c.png",          imageAlt: "Heating Installation"}
       ]}
       title="Our Professional HVAC Services"
-      description="We specialize in modern cooling and heating solutions for residential and commercial spaces. Reach out at Southbayminisplits310@gmail.com."
+      description="We specialize in modern cooling and heating solutions for residential and commercial spaces. "
     />
   </div>
 
