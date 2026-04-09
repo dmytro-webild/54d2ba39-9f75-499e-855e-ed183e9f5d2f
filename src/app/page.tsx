@@ -158,7 +158,7 @@ export default function LandingPage() {
       tag="Contact Us Now"
       title="Need a Free Quote?"
       description="Ready to upgrade your system or need repair? Contact us today for a free estimate."
-      buttonText="Request My Free Quote"
+      buttonText="Request a Quote"
     />
   </div>
 
