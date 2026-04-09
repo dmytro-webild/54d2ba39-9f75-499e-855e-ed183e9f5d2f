@@ -39,7 +39,7 @@ export default function ContactPage() {
         <div id="contact" data-section="contact">
           <ContactSplitForm
             title="Get a Free Quote"
-            description="Reach out to our experts at 424-489-3555 for professional service or fill out the form below."
+            description="Reach out to our experts at 424-489-3555 or email us at Southbayminisplits310@gmail.com for professional service or fill out the form below."
             inputs={[
               { name: "name", type: "text", placeholder: "Full Name", required: true },
               { name: "email", type: "email", placeholder: "Email Address", required: true }
@@ -58,6 +58,7 @@ export default function ContactPage() {
                 title: "Contact",                items: [
                   { label: "310-707-3279", href: "tel:3107073279" },
                   { label: "424-489-3555", href: "tel:4244893555" },
+                  { label: "Southbayminisplits310@gmail.com", href: "mailto:Southbayminisplits310@gmail.com" },
                 ],
               },
               {
