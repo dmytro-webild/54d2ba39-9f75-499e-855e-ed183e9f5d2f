@@ -120,7 +120,7 @@ export default function LandingPage() {
         },
       ]}
       title="Our Trusted Reputation"
-      description="Proven experience you can trust with 500+ homes and businesses served."
+      description="Proven experience you can trust with 400+ residential and 100+ businesses served."
     />
   </div>
 
