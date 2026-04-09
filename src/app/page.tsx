@@ -54,9 +54,7 @@ export default function LandingPage() {
       tag="Trusted HVAC Experts"
       buttons={[
         {
-          text: "Call 310-707-3279",          href: "tel:3107073279"},
-        {
-          text: "Call 424-489-3555",          href: "tel:4244893555"},
+          text: "Get A Free Quote",          href: "#contact"},
       ]}
       mediaItems={[
         {
