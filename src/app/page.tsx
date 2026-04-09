@@ -37,6 +37,8 @@ export default function LandingPage() {
         {
           name: "Services",          id: "services"},
         {
+          name: "FAQ",          id: "/faq"},
+        {
           name: "Contact",          id: "contact"},
       ]}
       brandName="South Bay Mini Splits"
