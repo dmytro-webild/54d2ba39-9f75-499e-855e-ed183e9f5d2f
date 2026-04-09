@@ -39,7 +39,7 @@ export default function LandingPage() {
       ]}
       brandName="South Bay Mini Splits"
       button={{
-        text: "Get Free Quote",        href: "#contact"}}
+        text: "Get A Quote",        href: "#contact"}}
     />
   </div>
 
@@ -52,7 +52,7 @@ export default function LandingPage() {
       tag="Trusted HVAC Experts"
       buttons={[
         {
-          text: "Get A Free Quote",          href: "#contact"},
+          text: "Get A Quote",          href: "#contact"},
       ]}
       mediaItems={[
         {
