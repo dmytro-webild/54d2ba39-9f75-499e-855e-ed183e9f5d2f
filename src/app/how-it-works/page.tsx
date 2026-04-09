@@ -3,7 +3,7 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
+import FeatureCardOne from '@/components/sections/feature/FeatureCardOne';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 
 export default function HowItWorksPage() {
@@ -36,17 +36,18 @@ export default function HowItWorksPage() {
           />
         </div>
 
-        <div id="how-it-works" data-section="how-it-works">
-          <FeatureCardEight
+        <div id="services" data-section="services">
+          <FeatureCardOne
             title="Our Simple 4-Step Process"
             description="Getting your HVAC system in peak condition is easy with our transparent process."
             textboxLayout="default"
+            animationType="blur-reveal"
             useInvertedBackground={false}
             features={[
-              { title: "1. Schedule a call", description: "Contact us to discuss your needs and set a time for a consultation." },
-              { title: "2. On-site diagnosis", description: "Our experts assess your system and provide a clear plan of action." },
-              { title: "3. Expert repair or install", description: "High-quality workmanship using top-tier components and tools." },
-              { title: "4. Quality Guaranteed", description: "We stand by our work with full satisfaction on every project." }
+              { title: "1. Schedule a call", description: "Contact us to discuss your needs and set a time for a consultation.", videoSrc: "/" },
+              { title: "2. On-site diagnosis", description: "Our experts assess your system and provide a clear plan of action.", videoSrc: "/" },
+              { title: "3. Expert repair or install", description: "High-quality workmanship using top-tier components and tools.", videoSrc: "/" },
+              { title: "4. Quality Guaranteed", description: "We stand by our work with full satisfaction on every project.", videoSrc: "/" }
             ]}
           />
         </div>
