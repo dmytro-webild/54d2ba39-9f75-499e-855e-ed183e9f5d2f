@@ -2,7 +2,6 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FeatureCardOne from '@/components/sections/feature/FeatureCardOne';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
@@ -34,11 +33,8 @@ export default function LandingPage() {
         { name: "Services", id: "services" },
         { name: "How It Works", id: "/how-it-works" },
         { name: "FAQ", id: "/faq" },
-        { name: "Contact", id: "contact" },
       ]}
       brandName="South Bay Mini Splits"
-      button={{
-        text: "Get A Quote",        href: "#contact"}}
     />
   </div>
 
@@ -49,10 +45,6 @@ export default function LandingPage() {
       title="Expert HVAC Services in Los Angeles"
       description="South Bay Mini Splits brings 5 years of experience to your home. Expert installations, emergency repairs, and maintenance plans. Serving the entire Los Angeles region."
       tag="Trusted HVAC Experts"
-      buttons={[
-        {
-          text: "Get A Quote",          href: "#contact"},
-      ]}
       mediaItems={[
         {
           imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775762199523-nj0x1bl5.png",          imageAlt: "South Bay Mini Splits Professional Setup"},
@@ -118,18 +110,6 @@ export default function LandingPage() {
       ]}
       title="Our Trusted Reputation"
       description="Proven experience you can trust with 400+ residential and 100+ businesses served."
-    />
-  </div>
-
-  <div id="contact" data-section="contact">
-      <ContactCenter
-      useInvertedBackground={false}
-      background={{
-        variant: "gradient-bars"}}
-      tag="Contact Us Now"
-      title="Need a Free Quote?"
-      description="Ready to upgrade your system or need repair? Contact us today for a free estimate."
-      buttonText="Request a Quote"
     />
   </div>
 
