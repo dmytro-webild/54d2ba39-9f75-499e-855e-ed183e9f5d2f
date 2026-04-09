@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import FeatureCardOne from '@/components/sections/feature/FeatureCardOne';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
+import HeroSplit from '@/components/sections/hero/HeroSplit';
 import MediaAbout from '@/components/sections/about/MediaAbout';
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -35,20 +35,21 @@ export default function LandingPage() {
         { name: "FAQ", id: "/faq" },
       ]}
       brandName="South Bay Mini Splits"
-      button={{ text: "Get Quote", href: "#" }}
+      button={{ text: "Get Quote", href: "/contact" }}
     />
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroBillboardScroll
-      background={{
-        variant: "gradient-bars"}}
+      <HeroSplit
+      background={{ variant: "gradient-bars" }}
       title="Expert HVAC Services in Los Angeles"
       description="South Bay Mini Splits brings 5 years of experience to your home. Expert installations, emergency repairs, and maintenance plans. Serving the entire Los Angeles region."
       tag="Trusted HVAC Experts"
+      tagIcon={ShieldCheck}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775762199523-nj0x1bl5.png"
       imageAlt="South Bay Mini Splits Professional Setup"
-      tagIcon={ShieldCheck}
+      imagePosition="right"
+      mediaAnimation="blur-reveal"
     />
   </div>
 
