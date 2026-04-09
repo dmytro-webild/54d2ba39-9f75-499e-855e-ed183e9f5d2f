@@ -30,6 +30,7 @@ export default function TestimonialsPage() {
             { name: "FAQ", id: "/faq" },
           ]}
           brandName="South Bay Mini Splits"
+          button={{ text: "Get Quote", href: "#" }}
         />
         
         <div id="testimonials" data-section="testimonials" className="py-24">

@@ -30,6 +30,7 @@ export default function FaqPage() {
             { name: "FAQ", id: "/faq" },
           ]}
           brandName="South Bay Mini Splits"
+          button={{ text: "Get Quote", href: "#" }}
         />
         
         <div id="faq" data-section="faq" className="py-24">

@@ -35,6 +35,7 @@ export default function LandingPage() {
         { name: "FAQ", id: "/faq" },
       ]}
       brandName="South Bay Mini Splits"
+      button={{ text: "Get Quote", href: "#" }}
     />
   </div>
 
