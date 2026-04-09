@@ -76,7 +76,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="A Half-Decade of Comfort"
       description="For over 5 years, we've dedicated ourselves to keeping Los Angeles comfortable. Whether you need a new AC install, emergency heater repair, or a routine maintenance plan, our certified technicians are here to help."
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/modern-high-efficiency-ac-mini-split-wal-1775762229290-2b1c4510.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/modern-high-efficiency-ac-mini-split-wal-1775762229290-2b1c4510.png?_wi=1"
       imageAlt="HVAC equipment in a home setting"
     />
   </div>
@@ -89,7 +89,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          title: "Mini Split Installation",          description: "High-efficiency cooling solutions for your home or office.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/modern-high-efficiency-ac-mini-split-wal-1775762229290-2b1c4510.png",          imageAlt: "AC Unit"},
+          title: "Mini Split Installation",          description: "High-efficiency cooling solutions for your home or office.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/modern-high-efficiency-ac-mini-split-wal-1775762229290-2b1c4510.png?_wi=2",          imageAlt: "AC Unit"},
         {
           title: "Emergency Repairs",          description: "24/7 support for critical heating and cooling failures.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/professional-hvac-technician-inspecting--1775762228480-c32f1e93.png",          imageAlt: "Heater Repair"},
         {
