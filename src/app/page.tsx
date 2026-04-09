@@ -58,9 +58,9 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763691839-ab8ly4mw.jpg",          imageAlt: "South Bay Mini Splits Professional Setup"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775762199523-nj0x1bl5.png",          imageAlt: "South Bay Mini Splits Professional Setup"},
         {
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159687-ogu8itrl.png?_wi=1",          imageAlt: "HVAC Installation and Service"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763825901-uun254u6.png",          imageAlt: "HVAC Installation and Service"},
       ]}
       mediaAnimation="slide-up"
       rating={5}
