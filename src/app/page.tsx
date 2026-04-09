@@ -91,7 +91,7 @@ export default function LandingPage() {
         {
           title: "Duct Cleaning",          description: "Professional duct cleaning for better air quality and efficiency.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763554731-xh8a7pxz.png",          imageAlt: "Duct Cleaning"},
         {
-          title: "Heating Installations",          description: "Expert heating system installations for year-round comfort.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763554730-i9dspw6o.png?_wi=2",          imageAlt: "Heating Installation"}
+          title: "Heating Installations",          description: "Expert heating system installations for year-round comfort.",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/tmp/show-a-technician-installing-a-hvac-heat-1775765644501-22d65c8c.png",          imageAlt: "Heating Installation"}
       ]}
       title="Our Professional HVAC Services"
       description="We specialize in modern cooling and heating solutions for residential and commercial spaces."
