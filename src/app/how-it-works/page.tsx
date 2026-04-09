@@ -39,7 +39,7 @@ export default function HowItWorksPage() {
         <div id="services" data-section="services">
           <FeatureCardOne
             title="Our Simple 4-Step Process"
-            description="Getting your HVAC system in peak condition is easy with our transparent process."
+            description="Getting your HVAC system in peak condition is easy with our transparent process. For questions, email us at Southbayminisplits310@gmail.com."
             textboxLayout="default"
             animationType="blur-reveal"
             gridVariant="uniform-all-items-equal"
@@ -57,7 +57,7 @@ export default function HowItWorksPage() {
           <FooterBaseReveal
             logoText="South Bay Mini Splits"
             columns={[
-              { title: "Contact", items: [{ label: "310-707-3279", href: "tel:3107073279" }, { label: "424-489-3555", href: "tel:4244893555" }] },
+              { title: "Contact", items: [{ label: "310-707-3279", href: "tel:3107073279" }, { label: "424-489-3555", href: "tel:4244893555" }, { label: "Southbayminisplits310@gmail.com", href: "mailto:Southbayminisplits310@gmail.com" }] },
               { title: "Region", items: [{ label: "South Bay, LA", href: "#" }, { label: "Greater LA Area", href: "#" }] },
             ]}
           />
