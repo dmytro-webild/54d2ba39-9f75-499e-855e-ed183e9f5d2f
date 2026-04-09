@@ -42,12 +42,13 @@ export default function HowItWorksPage() {
             description="Getting your HVAC system in peak condition is easy with our transparent process."
             textboxLayout="default"
             animationType="blur-reveal"
+            gridVariant="uniform-all-items-equal"
             useInvertedBackground={false}
             features={[
-              { title: "1. Schedule a call", description: "Contact us to discuss your needs and set a time for a consultation.", videoSrc: "/" },
-              { title: "2. On-site diagnosis", description: "Our experts assess your system and provide a clear plan of action.", videoSrc: "/" },
-              { title: "3. Expert repair or install", description: "High-quality workmanship using top-tier components and tools.", videoSrc: "/" },
-              { title: "4. Quality Guaranteed", description: "We stand by our work with full satisfaction on every project.", videoSrc: "/" }
+              { title: "1. Schedule a call", description: "Contact us to discuss your needs and set a time for a consultation." },
+              { title: "2. On-site diagnosis", description: "Our experts assess your system and provide a clear plan of action." },
+              { title: "3. Expert repair or install", description: "High-quality workmanship using top-tier components and tools." },
+              { title: "4. Quality Guaranteed", description: "We stand by our work with full satisfaction on every project." }
             ]}
           />
         </div>
