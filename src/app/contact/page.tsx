@@ -38,7 +38,7 @@ export default function ContactPage() {
 
         <div id="contact" data-section="contact">
           <ContactSplitForm
-            title="Get a Free Quote"
+            title="Get a Quote"
             description="Reach out to our experts at 424-489-3555 or email us at Southbayminisplits310@gmail.com for professional service or fill out the form below."
             inputs={[
               { name: "name", type: "text", placeholder: "Full Name", required: true },
