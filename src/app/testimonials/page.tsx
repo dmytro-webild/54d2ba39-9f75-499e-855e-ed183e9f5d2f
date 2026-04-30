@@ -5,7 +5,6 @@ import ReactLenis from "lenis/react";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
-import { Star } from "lucide-react";
 
 export default function TestimonialsPage() {
   return (
@@ -28,7 +27,6 @@ export default function TestimonialsPage() {
               { name: "Home", id: "/" },
               { name: "About", id: "/about" },
               { name: "Services", id: "/services" },
-              { name: "How It Works", id: "/how-it-works" },
               { name: "FAQ", id: "/faq" },
               { name: "Testimonials", id: "/testimonials" },
               { name: "Contact", id: "/contact" },

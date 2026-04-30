@@ -27,7 +27,6 @@ export default function ContactPage() {
               { name: "Home", id: "/" },
               { name: "About", id: "/about" },
               { name: "Services", id: "/services" },
-              { name: "How It Works", id: "/how-it-works" },
               { name: "FAQ", id: "/faq" },
               { name: "Testimonials", id: "/testimonials" },
               { name: "Contact", id: "/contact" },
