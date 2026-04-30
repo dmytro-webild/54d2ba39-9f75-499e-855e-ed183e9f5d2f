@@ -3,8 +3,9 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
-import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
+import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
+import { Star } from "lucide-react";
 
 export default function TestimonialsPage() {
   return (
@@ -21,37 +22,38 @@ export default function TestimonialsPage() {
         headingFontWeight="bold"
     >
       <ReactLenis root>
-        <NavbarLayoutFloatingInline
-          navItems={[
-            { name: "Home", id: "/" },
-            { name: "About", id: "/about" },
-            { name: "Services", id: "/services" },
-            { name: "How It Works", id: "/how-it-works" },
-            { name: "FAQ", id: "/faq" },
-            { name: "Contact", id: "/contact" },
-          ]}
-          brandName="South Bay Mini Splits"
-          button={{ text: "Get Quote", href: "/contact" }}
-        />
+        <div id="nav" data-section="nav">
+          <NavbarLayoutFloatingInline
+            navItems={[
+              { name: "Home", id: "/" },
+              { name: "About", id: "/about" },
+              { name: "Services", id: "/services" },
+              { name: "How It Works", id: "/how-it-works" },
+              { name: "FAQ", id: "/faq" },
+              { name: "Testimonials", id: "/testimonials" },
+              { name: "Contact", id: "/contact" },
+            ]}
+            brandName="South Bay Mini Splits"
+            button={{ text: "Get Quote", href: "/contact" }}
+          />
+        </div>
         
         <div id="testimonials" data-section="testimonials" className="py-24">
-            <TestimonialCardOne
-              animationType="slide-up"
+            <TestimonialCardFive
+              title="Customer Experiences"
+              description="See why homeowners and businesses in Los Angeles trust us with their climate control needs."
               textboxLayout="default"
-              gridVariant="asymmetric-60-wide-40-narrow"
               useInvertedBackground={true}
               testimonials={[
-                { id: "1", name: "Alex R.", role: "Homeowner", company: "South Bay", rating: 5 },
-                { id: "2", name: "Sarah T.", role: "Business Owner", company: "LA Local", rating: 5 },
-                { id: "3", name: "Marcus W.", role: "Homeowner", company: "Long Beach", rating: 5 },
-                { id: "4", name: "Elena P.", role: "Homeowner", company: "Torrance", rating: 5 },
+                { id: "1", name: "Alex R.", date: "October 2023", title: "Excellent Service", quote: "Professional installation and quick turnaround. My home is finally cool!", tag: "Homeowner", avatarSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex" },
+                { id: "2", name: "Sarah T.", date: "November 2023", title: "Highly Recommended", quote: "The team was punctual, clean, and very knowledgeable about my system.", tag: "Business Owner", avatarSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah" },
+                { id: "3", name: "Marcus W.", date: "January 2024", title: "Great Value", quote: "Incredible efficiency improvements after their maintenance check.", tag: "Homeowner", avatarSrc: "https://api.dicebear.com/7.x/avataaars/svg?seed=Marcus" },
               ]}
-              title="Our Customer Stories"
-              description="Read about the experiences of our valued clients in the Los Angeles area. Reach out at Southbayminisplits310@gmail.com."
             />
         </div>
 
-        <FooterBaseReveal
+        <div id="footer" data-section="footer">
+          <FooterBaseReveal
             logoText="South Bay Mini Splits"
             columns={[
                 { title: "Contact", items: [
@@ -64,7 +66,8 @@ export default function TestimonialsPage() {
                     { label: "Greater LA Area", href: "#" }
                 ]}
             ]}
-        />
+          />
+        </div>
       </ReactLenis>
     </ThemeProvider>
   );
