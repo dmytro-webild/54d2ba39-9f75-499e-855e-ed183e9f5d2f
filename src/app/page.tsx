@@ -58,7 +58,7 @@ export default function LandingPage() {
       <MediaAbout
       useInvertedBackground={false}
       title="A Half-Decade of Comfort"
-      description="For over 5 years, we've dedicated ourselves to keeping Los Angeles comfortable. Whether you need a new AC install, emergency heater repair, or a routine maintenance plan, our certified technicians are here to help. Email us at Southbayminisplits310@gmail.com for inquiries."
+      description="For over 5 years, we've dedicated ourselves to keeping Los Angeles comfortable. Whether you need a new AC install, emergency heater repair, or a routine maintenance plan, our certified technicians are here to help. "
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AfvYEyFw72YgTF5rspxYRu8XQt/uploaded-1775763159686-9br4it8a.png?_wi=2"
       imageAlt="HVAC equipment in a home setting"
     />
